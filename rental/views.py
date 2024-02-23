@@ -11,5 +11,5 @@ class BelongingViewSet(viewsets.ModelViewSet):
     serializer_class = serializers.BelongingSerializer
 
 class BorrowedViewSet(viewsets.ModelViewSet):
-    queryset = modes.Borrowed.objects.all()
+    queryset = models.Borrowed.objects.all()
     serializer_class = serializers.BorrowedSerializer
